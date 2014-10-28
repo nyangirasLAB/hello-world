@@ -10,7 +10,8 @@ class TestParser(HTMLParser):
 
 	def handle_starttag(self,tagname,attribute):
 		if(tagname == "img"):
-			print dict(attribute)["src"]
+#			print dict(attribute)["src"]
+			html_tag = attribute
 
 if __name__ == "__main__":
 
