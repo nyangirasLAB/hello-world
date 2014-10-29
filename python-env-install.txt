@@ -1,0 +1,7 @@
+Python仮想環境の構築から停止まで
+
+1.apt-get install python2.7 python2.7-dev python-virtualenv
+2.virtualenv DEST_DIR or virtualenv --no-site-packages DEST_DIR
+--no-site-packages オプションを付けると、インストール済みのモジュールを全て外した状態で仮想環境が作成される。
+3.source ENV/bin/activate
+4.deactivate
