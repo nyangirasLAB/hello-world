@@ -1,0 +1,180 @@
+https://wiki.python.org/moin/UsefulModules
+
+
+
+暗号化
+
+Pythonによる暗号化モジュールを取り扱った独立したページへ
+
+データベース
+
+SQLAlchemy ， SQLObject - オブジェクト指向的な手法でデータベースに接続するO/Rマッパー。多数のデータベースエンジンに対応
+
+データベース接続用インターフェースのページ
+
+外部機能との連携
+
+CTypes - dllや共有ライブラリを呼び出すためのパッケージ。Python 2.5以上では標準ライブラリに内蔵されている。
+
+ゲーム開発
+
+PyGame - SDLライブラリ(マルチプラットフォーム対応，サウンドやグラフィックなどマルチメディア機能を提供しているライブラリ)のラッパ。
+
+GameProgrammingもどうぞ。 より包括的なパッケージのリストはこちら(PythonGameLibraries)。
+
+GIS(位置情報システム)
+
+googlemaps geocoding,逆 geocoding, や検索などを，Google Mapsの機能を使ってPythonから行う
+
+geopy Python のGeocoding用ツールボックス
+
+GUI
+
+PyGtk - クロスプラットフォームのGtkツールキットへのPythonバインディング
+
+PyQt - クロスプラットフォームのQtフレームワークへのPythonバインディング
+
+TkInter - 古くから使われている，PythonのUIツールキット
+
+WxPython - wxWidgetsのPythonバインディング。PythonCard, Wax など他のフレームワークが使っている
+
+PyjamasDesktop - webkit のPythonバインディング  
+
+コンソール
+
+文字列で表組みをするtext_table，PrettyTable，texttableなど
+
+MP3などのID3タグ操作
+
+Mutagen - 音声のメタデータを扱うためのモジュール。FLAC, M4A, Musepack, MP3, Ogg FLAC, Ogg Speex, Ogg Theora, Ogg Vorbis, True Audio, WavPackをサポート
+
+ID3Reader - MP3のID3メタデータを読むライブラリ
+
+ID3Writer - MP3のID3タグを書き込むライブラリ 
+
+pytagger - Pythonだけで書かれたID3タグ読み取りモジュール。 ID3v1, ID3v1.1, ID3v2.2, ID3v2.3， ID3v2.4 をサポート
+
+画像処理
+
+Python Imaging Library (PIL) - 多くの画像フォーマットをサポートし，強力な画像処理機能を持つライブラリ
+
+インデクシングとテキスト検索
+
+Xapian
+
+PyLucene
+
+GrassyKnoll Pythonによるサーチエンジン 
+
+ネットワーク
+
+TwistedMatrix - イベントドリブンネットワークフレームワーク
+
+RPyC - 分散処理フレームワーク(RPC/distributed-computing)
+
+PyRO - 分散処理フレームワーク(PYthon Remote Objects)  
+
+ 
+特定プラットフォーム向けのライブラリ
+
+Psyco - Pythonの高速化ライブラリ(x86のみ).
+
+PyInstaller - Windows，Linux，IrixでPythonのプログラムをスタンドアロンで動くようにパッケージする
+
+Mac
+
+py2app - スタンドアロンのアプリを作る(py2exeのMac版)
+
+PyObjC - PythonとObjective-Cのブリッジ。Cocoa GUIアプリをPythonで書ける
+
+Windows
+
+PyWin32 - Windows用のPython拡張モジュール
+
+Py2exe - Pythonのプログラムをスタンドアロンで動く実行可能ファイルに変換
+
+作図 
+
+Chaco - インタラクティブな図を作る
+
+gnuplot.py - gunplotを元にしたライブラリ
+
+Matplotlib - ハイクオリティで様々な作図を行えるライブラリ
+
+PyX - (La)TeXからPostscriptとPDFを出力
+
+ReportLab チャート出力機能付き
+
+Veusz -  PyQt のフロントエンドからPostscriptを出力
+
+SciPy topical software のページにはもっと多くのモジュールがある
+
+RDF生成
+
+RdfLibraries を見てね 
+
+学術ライブラリ
+
+Visual Python - プログラミング初心者の物理学者でもリアルタイムの3Dグラフィックが作れる
+
+SciPy - 数学，科学，工学向けの数値解析ソフト。オープンソース，Windows，Linux，Macで動く
+
+Python Bindings for R - R言語のPythonバインディング
+
+numpy
+
+PyIMSL 数学，統計用のIMSL CライブラリのPythonラッバ
+
+Pythonに付属の標準ライブラリを強化 
+
+Python Path - os.pathの機能をラップして便利にする
+
+スレッディング
+
+ThreadPool - スレッドを直接操作するためのライブラリ
+
+マルチプロセッシング，パラレルプロセッシングについてはParallelProcessingをどうぞ
+
+Web開発
+
+Django - ハイレベルPythonWeb フレームワーク(著者注:原文通りです:-))
+
+TurboGears - RADなWebフレームワーク
+
+Pylons - RADと柔軟性が特徴の軽量 Webフレームワーク
+
+WebProgramming と WebFrameworks もどうぞ
+
+ HTML フォーム
+
+ClientForm - クライアントサイドでフォームをハンドリングするPythonのモジュール。HTMLのフォームを解析し，フォームに値を埋めてサーバに送信するのに便利
+
+FormEncode
+
+lxml.html
+
+WebProgramming と WebFrameworks もどうぞ 
+
+HTML パーサ
+
+Beautiful Soup - スクレイピングをしたいときに使えるHTML/XMLパーサ。行儀の悪いマークアップも扱える
+
+mxTidy - HTMLクリーンナップツール
+
+lxml.html 速くて簡単に使えるHTML処理用ライブラリ
+
+PythonXml もどうぞ 
+
+ワークフロー
+
+openflow - Zope 2用のワークフローエンジン
+
+Goflow - Django用のワークフローエンジン
+
+XML 処理 
+
+ElementTree - Python 2.5以上に標準で搭載されているXMLライブラリ
+
+lxml 高速，簡単に使えるXML処理ライブラリ。ElementTreeとほとんどコンパチで，速い
+
+
