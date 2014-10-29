@@ -5,3 +5,26 @@ Python仮想環境の構築から停止まで
 --no-site-packages オプションを付けると、インストール済みのモジュールを全て外した状態で仮想環境が作成される。
 3.source ENV/bin/activate
 4.deactivate
+
+Vimのプラグインインストール
+1. dpkg -l | grep vim 完全版vimであることを確認する
+2. sudo pip install flake8 pyflakes pep8 pylint jedi
+3. mkdir -p ~/.vim/bundle
+4. git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim5. " bundleのディレクトリ指定
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+" neobundleを読み込む
+call neobundle#begin(expand('~/.vim/bundle/'))
+" neobundle を管理
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" **** 導入するプラグイン ****
+NeoBundle 'Flake8-vim'
+NeoBundle 'davidhalter/jedi-vim'
+NeoBundle 'hynek/vim-python-pep8-indent'
+NeoBundle 'Townk/vim-autoclose'
+NeoBundle 'scrooloose/syntastic'
+
+" neobundle を閉じる
+call neobundle#end()
+"  " " " " " " 
+6.viを起動してプラグインがインストールされることを確認する
